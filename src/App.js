@@ -7,6 +7,20 @@ import image3 from '../src/images/image-3.jpg'
 import image4 from '../src/images/image-4.jpg'
 
 function App() {
+  const imageObj = [
+    {
+      photo: image
+    },
+    {
+      photo: image2
+    },
+    {
+      photo: image3
+    },
+    {
+      photo: image4
+    }
+  ];
   return (
     <div className="App">
      <Header title={"First Title"} borderColor={"red"}></Header>
@@ -19,10 +33,13 @@ function App() {
       flex: "flex-wrap",
       justifyContent: "space-evenly"
      }}>
-      <Square picture={image} number={1}/>
-      <Square picture={image2} number={2}/>
-      <Square picture={image3} number={3}/>
-      <Square picture={image4} number={4}/>
+      {
+        imageObj.map(imageT => {
+          return (
+            <Square picture={imageT.photo} number={1}/>
+          );
+        })
+      }
      </div>
     </div>
   );
