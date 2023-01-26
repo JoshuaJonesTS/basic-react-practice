@@ -10,7 +10,13 @@ function App() {
      <Header title={"Third Title"} borderColor={"yellow"}></Header>
      <Header title={"Fourth Title"} borderColor={"green"}></Header>
      <br></br>
-     <div>
+     <div style={{
+      display: "flex",
+      flex: "flex-wrap"
+     }}>
+      <Square />
+      <Square />
+      <Square />
       <Square />
      </div>
     </div>
