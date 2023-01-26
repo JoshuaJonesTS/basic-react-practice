@@ -40,8 +40,12 @@ function App() {
       {/* map through image object to display images, index is by default initialized as an integer */}
       {
         imageObj.map((imageT, index) => {
+          let color = "yellow"
+          if(index % 2 === 0) {
+            color = 'green'
+          }
           return (
-            <Square picture={imageT.photo} number={index} color={"green"}/>
+            <Square picture={imageT.photo} number={index} color={color}/>
           );
         })
       }
