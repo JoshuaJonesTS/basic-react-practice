@@ -1,6 +1,5 @@
 import React from 'react';
 // import './square.styles.css'
-import image from '../../images/image-1.jpg'
 
 const Square = ({ picture }) => {
     return (
