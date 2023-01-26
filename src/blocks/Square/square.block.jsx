@@ -1,5 +1,5 @@
 import React from 'react';
-import './square.block.css'
+import './square.styles.css'
 
 const Square = () => {
     return (
