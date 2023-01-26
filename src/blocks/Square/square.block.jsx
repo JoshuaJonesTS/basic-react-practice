@@ -6,7 +6,7 @@ const Square = ({ picture, number }) => {
     let word = `Number: ${evenNumbers}`
     return (
         <div style={{
-            backgroundColor: 'yellow',
+            backgroundColor: 'green',
             width: '15%',
             height: '200px'
             
