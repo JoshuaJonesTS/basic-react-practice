@@ -3,27 +3,8 @@ import './App.css';
 import Header from './blocks/Header/header.block';
 import Square from './blocks/Square/square.block';
 
-// images
-import image from '../src/images/image-1.jpg'
-import image2 from '../src/images/image-2.jpg'
-import image3 from '../src/images/image-3.jpg'
-import image4 from '../src/images/image-4.jpg'
-
-  // this object holds the string directories of the images
-  const imageObj = [
-    {
-      photo: image
-    },
-    {
-      photo: image2
-    },
-    {
-      photo: image3
-    },
-    {
-      photo: image4
-    }
-  ];
+// data
+import imageObj from './Photos/data';
 
 function App() {
   return (
