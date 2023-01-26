@@ -10,7 +10,7 @@ const Square = ({ picture }) => {
             height: '200px'
             
         }}>
-            <img src={image} alt=""></img>
+            <img src={picture} alt=""></img>
         </div>
     );
 }
