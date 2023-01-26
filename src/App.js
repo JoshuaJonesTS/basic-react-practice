@@ -41,7 +41,7 @@ function App() {
       {
         imageObj.map((imageT, index) => {
           return (
-            <Square picture={imageT.photo} number={index}/>
+            <Square picture={imageT.photo} number={index} color={"green"}/>
           );
         })
       }
