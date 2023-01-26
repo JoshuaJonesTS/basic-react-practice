@@ -1,12 +1,16 @@
 import './App.css';
+// blocks
 import Header from './blocks/Header/header.block';
 import Square from './blocks/Square/square.block';
+
+// images
 import image from '../src/images/image-1.jpg'
 import image2 from '../src/images/image-2.jpg'
 import image3 from '../src/images/image-3.jpg'
 import image4 from '../src/images/image-4.jpg'
 
 function App() {
+  // this object holds the string directories of the images
   const imageObj = [
     {
       photo: image
@@ -33,6 +37,7 @@ function App() {
       flex: "flex-wrap",
       justifyContent: "space-evenly"
      }}>
+      {/* map through image object to display images, index is by default initialized as an integer */}
       {
         imageObj.map((imageT, index) => {
           return (
