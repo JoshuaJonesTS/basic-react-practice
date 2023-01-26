@@ -4,7 +4,7 @@ import Header from './blocks/Header.block';
 function App() {
   return (
     <div className="App">
-     <Header></Header>
+     <Header title={"First Title"}></Header>
     </div>
   );
 }
