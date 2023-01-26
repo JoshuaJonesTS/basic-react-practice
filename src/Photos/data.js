@@ -1,8 +1,8 @@
 // images
-import image from '../src/images/image-1.jpg'
-import image2 from '../src/images/image-2.jpg'
-import image3 from '../src/images/image-3.jpg'
-import image4 from '../src/images/image-4.jpg'
+import image from '../Photos/data.js'
+import image2 from '../Photos/data.js'
+import image3 from '../Photos/data.js'
+import image4 from '../Photos/data.js'
 
 // this object holds the string directories of the images
 const imageObj = [
