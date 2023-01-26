@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './blocks/Header/header.block';
 import Square from './blocks/Square/square.block';
+import '../src/images/image-1.jpg'
 
 function App() {
   return (
