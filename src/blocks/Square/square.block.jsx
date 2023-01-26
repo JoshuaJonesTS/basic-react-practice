@@ -1,5 +1,5 @@
 import React from 'react';
-import './square.styles.css'
+// import './square.styles.css'
 
 const Square = () => {
     return (
