@@ -3,7 +3,11 @@ import React from 'react';
 
 const Square = () => {
     return (
-        <div className="square">
+        <div style={{
+            backgroundColor: 'yellow',
+            width: '15%',
+            height: '200px'
+        }}>
             <p>Tile</p>
         </div>
     );
