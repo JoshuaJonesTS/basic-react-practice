@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './blocks/Header/header.block';
+import Square from './blocks/Square/square.block';
 
 function App() {
   return (
