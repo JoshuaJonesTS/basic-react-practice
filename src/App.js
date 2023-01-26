@@ -34,9 +34,9 @@ function App() {
       justifyContent: "space-evenly"
      }}>
       {
-        imageObj.map(imageT => {
+        imageObj.map((imageT, index) => {
           return (
-            <Square picture={imageT.photo} number={1}/>
+            <Square picture={imageT.photo} number={index}/>
           );
         })
       }
