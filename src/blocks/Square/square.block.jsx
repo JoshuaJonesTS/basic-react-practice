@@ -1,14 +1,16 @@
 import React from 'react';
 // import './square.styles.css'
+import image from '../../images/image-1.jpg'
 
-const Square = () => {
+const Square = ({ picture }) => {
     return (
         <div style={{
             backgroundColor: 'yellow',
             width: '15%',
             height: '200px'
+            
         }}>
-            <p>Tile</p>
+            <img src={image} alt=""></img>
         </div>
     );
 }
