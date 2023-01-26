@@ -6,7 +6,7 @@ const Square = () => {
         <div style={{
             backgroundColor: 'yellow',
             width: '15%',
-            height: '200px',
+            height: '200px'
         }}>
             <p>Tile</p>
         </div>
