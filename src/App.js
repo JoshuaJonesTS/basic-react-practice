@@ -10,6 +10,9 @@ function App() {
      <Header title={"Third Title"} borderColor={"yellow"}></Header>
      <Header title={"Fourth Title"} borderColor={"green"}></Header>
      <br></br>
+     <div>
+      <Square />
+     </div>
     </div>
   );
 }
