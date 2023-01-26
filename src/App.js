@@ -8,6 +8,7 @@ function App() {
      <Header title={"Second Title"} borderColor={"orange"}></Header>
      <Header title={"Third Title"} borderColor={"yellow"}></Header>
      <Header title={"Fourth Title"} borderColor={"green"}></Header>
+     <br></br>
     </div>
   );
 }
