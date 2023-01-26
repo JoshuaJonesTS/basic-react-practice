@@ -12,7 +12,8 @@ function App() {
      <br></br>
      <div style={{
       display: "flex",
-      flex: "flex-wrap"
+      flex: "flex-wrap",
+      justifyContent: "space-evenly"
      }}>
       <Square />
       <Square />
