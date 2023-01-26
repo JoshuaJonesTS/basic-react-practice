@@ -3,6 +3,7 @@ import React from 'react';
 
 const Square = ({ picture, number }) => {
     let evenNumbers = number * 2;
+    let word = `Number: ${evenNumbers}`
     return (
         <div style={{
             backgroundColor: 'yellow',
@@ -10,7 +11,7 @@ const Square = ({ picture, number }) => {
             height: '200px'
             
         }}>
-            <h1>{evenNumbers}</h1>
+            <h1>{word}</h1>
             <img src={picture} alt=""></img>
         </div>
     );
