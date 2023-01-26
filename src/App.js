@@ -19,10 +19,10 @@ function App() {
       flex: "flex-wrap",
       justifyContent: "space-evenly"
      }}>
-      <Square picture={image}/>
-      <Square picture={image2}/>
-      <Square picture={image3}/>
-      <Square picture={image4}/>
+      <Square picture={image} number={1}/>
+      <Square picture={image2} number={2}/>
+      <Square picture={image3} number={3}/>
+      <Square picture={image4} number={4}/>
      </div>
     </div>
   );
