@@ -9,7 +9,6 @@ import image2 from '../src/images/image-2.jpg'
 import image3 from '../src/images/image-3.jpg'
 import image4 from '../src/images/image-4.jpg'
 
-function App() {
   // this object holds the string directories of the images
   const imageObj = [
     {
@@ -25,6 +24,8 @@ function App() {
       photo: image4
     }
   ];
+
+function App() {
   return (
     <div className="App">
      <Header title={"First Title"} borderColor={"red"}></Header>
