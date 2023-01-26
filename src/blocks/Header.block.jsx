@@ -2,7 +2,9 @@ import React from 'react';
 
 const Header = ({ title }) => {
     return (
-        <div>
+        <div style = {{
+            border: '1px solid red'
+        }}>
             {title}
         </div>
     );
