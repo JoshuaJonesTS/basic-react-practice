@@ -1,11 +1,11 @@
 import React from 'react';
-import './square.block.css'
+import styles from './square.block.css'
 
 const Square = ({ picture, number, color }) => {
     let evenNumbers = number * 2;
     let word = `Number: ${evenNumbers}`
     return (
-        <div className="test">
+        <div className={styles.test}class='test'>
             <h1>{word}</h1>
             <img src={picture} alt=""></img>
         </div>
